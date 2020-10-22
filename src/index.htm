@@ -16,11 +16,10 @@
 </head>
 
 <body>
-  <h1>Hello</h1>
+  <h1>DR Records</h1>
   <div id="app">
-    <input v-model="name" placeholder="Name">
-    <button v-on:click="sayHello()" class="btn btn-primary">Say hello</button>
-    <div>{{ greeting }}</div>
+    <button v-on:click="GetAll()" class="btn btn-primary">HENT ALLE</button>
+    <div>{{ records }}</div>
   </div>
 
   <script src="bundle.js"></script>
