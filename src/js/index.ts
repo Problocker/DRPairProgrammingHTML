@@ -14,7 +14,7 @@ CountryOrigin : string
 IsOnSpotify : boolean
 }
 
-let baseURL = "http://drrecordrest.azurewebsites.net/api/records";
+let baseURL = "https://drrecordrest.azurewebsites.net/api/records";
 
 new Vue({
     // TypeScript compiler complains about Vue because the CDN link to Vue is in the html file.
