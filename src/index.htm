@@ -20,7 +20,11 @@
   <div id="app">
     <button v-on:click="GetAll()" class="btn btn-primary">HENT ALLE</button>
 
-    
+    <ul><li v-for="record in records"> <strong>ID:</strong> {{record.id}}, <strong>Title:</strong> {{record.title}}, 
+      <strong>Artist:</strong> {{record.artist}},
+    <strong>Duration:</strong> {{record.duration}}, <strong> Year Of Publication:</strong> {{record.yearOfPublication}}, 
+    <strong> Country Origin:</strong> {{record.countryOrigin}},
+    <strong> On Spotify:</strong> {{record.isOnSpotify}} </li> </ul>
     
     
     
